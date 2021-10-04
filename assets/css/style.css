@@ -1,0 +1,157 @@
+/***************************/
+body {
+  font-family: "Solway", serif;
+}
+
+body {
+  background: #3a1c71; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffaf7b,
+    #d76d77,
+    #3a1c71
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffaf7b,
+    #d76d77,
+    #3a1c71
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+li {
+  background: #fff;
+  height: 40px;
+  line-height: 40px;
+  color: purple;
+  font-size: 1.2rem;
+}
+li:nth-child(2n) {
+  background: #f7f7f7;
+}
+span {
+  background: #e74c3c;
+  height: 40px;
+  margin-right: 20px;
+  text-align: center;
+  color: white;
+  width: 0;
+  display: inline-block;
+}
+/***************************
+input {
+  font-size: 18px;
+  color: #2980b9;
+  background-color: #f7f7f7;
+  width: 100%;
+  padding: 13px 13px 13px 20px;
+
+  box-sizing: border-box;
+}
+input: focus {
+  background: #fff;
+  border: 3px solid #2980b9;
+  outline: none;
+}
+
+#container {
+  width: 360px;
+  margin: 100px auto;
+  background: #f7f7f7;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+*/
+.completed {
+  color: gray;
+  text-decoration: line-through;
+}
+
+/**** container****/
+.container {
+  padding: 10px;
+  width: 380px;
+  margin: 0 auto;
+}
+.header {
+  width: 380px;
+  height: 200px;
+  background-image: url(https://cdn.pixabay.com/photo/2014/07/13/17/45/mountains-392669_960_720.jpg);
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  margin-top: 5rem;
+}
+
+.clear {
+  width: 30px;
+  height: 200;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.clear i {
+  font-size: 25px;
+  color: blue;
+}
+.clear i:hover {
+  cursor: pointer;
+  text-shadow: 1px 3px 5px #000;
+  transform: rotate(45deg);
+}
+#date {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: black;
+}
+
+/***content**/
+.content ul {
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+}
+.completed {
+  color: gray;
+  text-decoration: line-through;
+}
+/**Add toto*/
+.add-todo {
+  position: relative;
+  width: 360px;
+  height: 40px;
+  background-color: #fff;
+  padding: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.add-todo i {
+  position: absolute;
+  font-size: 30px;
+  color: #4162f6;
+}
+.add-todo input {
+  position: absolute;
+  left: 50px;
+  height: 35px;
+  width: 310px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.add-todo input::-webkit-input-placeholder {
+  color: #4162f6;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+}
+.add-todo input::-moz-placeholder {
+  color: #4162f6;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+}
+.add-todo input:-ms-input-placeholder {
+  color: #4162f6;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+}
